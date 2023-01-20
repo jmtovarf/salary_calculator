@@ -15,7 +15,7 @@ As a ``.txt`` is created with the information of all the employees, the module h
 and read that information, also mostly if the possible error cases are being handled in order to fix the file if
 is necessary.
 
-A ``cli`` is exposed to users in order to set the file path with the information or include directly the user 
+A ``CLI`` is exposed to users in order to set the file path with the information or include directly the user 
 data instead to read a file, this helps users to run the project without modifying the code or process a lot data.
 
 
