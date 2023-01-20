@@ -47,14 +47,16 @@ that project will never use.
 
 The installation depends on the OS, so you need to check the `PyEnv`_ documentation to make the installation.
 
-Once we have ``Pyenv`` installed we are ready to create our environment with the prefered python version and env name:
+Once we have ``Pyenv`` installed we are ready to create our environment with the prefered python version and env name.
 
 .. code-block:: console
+
     $ pyenv virtualenv 3.9.0 acme
 
 Now that the environment is created we can initalizate it and start to work with the project.
 
 .. code-block:: console
+
     $ pyenv activate acme
 
 
@@ -77,6 +79,7 @@ The application is a python module (you will need python3) that can be installed
 after cloning the repository:
 
 .. code-block:: console
+
     # Installing via pip
     $ pip install -e .
 
